@@ -14,6 +14,7 @@ This project
 
 We selected the SPI3 channel for driving the SD card. 
 
+
 | SD card | color | NUCLEO-F446RE   | 
 |---------|------ |-------|---------|
 |  DO    | blue   | MISO  | PC11    |
@@ -22,6 +23,7 @@ We selected the SPI3 channel for driving the SD card.
 |  CS    | brown  | CS    | PD2     |
 |  VCC   | red    | VCC   | 5V/3.3V |
 |  GND   | black  | GND   | GND     |
+
 
 ![](./images/SD_wiring.png)
 
