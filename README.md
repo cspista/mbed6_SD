@@ -29,11 +29,13 @@ We selected the SPI3 channel for driving the SD card.
 
 
 ## Software requirements
+* Start with an empty mbed 6 project
+* Edit the main.cpp source file
+* Configure the project by adding an **mbed_app.json** file in which
+    * We have to add the **SD** component and the **STORAGE** features_add
+    * We have to override the pin connections according to the selected **SPI** channel
 
-* We have to add the **SD** component and the **STORAGE** features_add
-* We have to override the pin connections according to the selected **SPI** channel
-
-The **mbed_app.json** sholuld look like this: 
+Finally the **mbed_app.json** sholuld look like this: 
 
 ```
 {
