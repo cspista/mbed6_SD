@@ -10,19 +10,19 @@ This project
 * SD card breakout (we used an 1.8" TFT board wich has an SD card socket on the back side)
 * USB connection to a PC through the built-in ST-Link v2-1
 
-## Wiring instructions
+## Wiring instructions for the NUCLEO-F446RE board
 
 We selected the SPI3 channel for driving the SD card. 
 
-
-| SD card | color | NUCLEO-F446RE   | 
-|---------|------ |-------|---------|
+| SD card | color | signal |pin   |
+|:-------:|:----: |:-----:|:-------:|
 |  DO    | blue   | MISO  | PC11    |
 |  SCLK  | yellow | SCLK  | PC10    |
 |  DI    | green  | MOSI  | PC12    |
 |  CS    | brown  | CS    | PD2     |
 |  VCC   | red    | VCC   | 5V/3.3V |
 |  GND   | black  | GND   | GND     |
+
 
 
 ![](./images/SD_wiring.png)
