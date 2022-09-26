@@ -2,7 +2,11 @@
 ## project name: mbed6_SD
 Tested by: **Keil Studio** 1.50 and **Mbed-OS** 6.16.0
 
-This project 
+This project demonstrates simple block writing/reading on an SD card.
+The result can be observed in a terminal window.
+
+### Reference:
+[SDBlockDevice example application](https://os.mbed.com/docs/mbed-os/v6.15/apis/sdblockdevice.html) (an example from Mbed-OS User Guide)
 
 
 ## Hardware requirements
@@ -51,3 +55,8 @@ Finally the **mbed_app.json** sholuld look like this:
     }
 }
 ```
+## mbed6_SD results
+Open a terminal window on the PC were the ST-Link v2-1 is connected to.
+The default baudrate is 9600 bps. After (re)starting of the program you should se the following output:
+
+![](./images/mbed6_SD.png)
